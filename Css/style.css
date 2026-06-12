@@ -1,0 +1,33 @@
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #333 !important;
+    position: relative;
+}
+
+/* Hover underline animation */
+.nav-link::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.nav-link:hover {
+    color: #000 !important;
+}
+
+.btn-dark {
+    border-radius: 30px;
+}
