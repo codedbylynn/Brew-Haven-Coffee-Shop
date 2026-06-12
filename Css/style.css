@@ -1,33 +1,39 @@
-.navbar-brand {
-    letter-spacing: 1px;
+/* NAVBAR */
+
+.navbar-brand{
+    color: #502416;
+    font-weight: 700;
 }
 
-.nav-link {
+.nav-link{
     font-weight: 500;
-    color: #333 !important;
     position: relative;
+    color:#5C4033
 }
 
-/* Hover underline animation */
-.nav-link::after {
+.nav-link::after{
     content: "";
-    width: 0%;
+    width: 0;
     height: 2px;
-    background: #000;
+    background-color: #5C4033;
     position: absolute;
     left: 0;
     bottom: 0;
     transition: 0.3s;
 }
 
-.nav-link:hover::after {
+.nav-link:hover::after{
     width: 100%;
 }
 
-.nav-link:hover {
-    color: #000 !important;
+.btn-dark{
+    background-color: #6B3A2A;
+    border-color: #6B3A2A;
+    border-radius: 30px;
+    padding: 10px 24px;
 }
 
-.btn-dark {
-    border-radius: 30px;
+.btn-dark:hover{
+    background-color: #502416;
+    border-color: #502416;
 }
