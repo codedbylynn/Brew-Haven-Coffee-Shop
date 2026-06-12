@@ -37,3 +37,68 @@
     background-color: #502416;
     border-color: #502416;
 }
+
+/*hero section*/
+
+
+/* --- Hero Section --- */
+
+.hero-section {
+    position: relative;
+    background: url('../Assets/hero.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(33, 19, 11, 0.85), rgba(29, 16, 9, 0.4));
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+
+.hero-title {
+    font-size: 4rem; 
+    font-weight: 700;
+    color: #ffffff; 
+    line-height: 1.1;
+}
+
+.hero-text {
+    margin: 25px 0;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 500px;
+}
+
+.hero-buttons {
+    margin-top: 30px;
+}
+
+/* Custom UI Button Styles */
+.btn-hero-primary {
+    color: #1d1009 !important; /* Dark brown text for the solid white button */
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.btn-hero-secondary {
+    color: #ffffff !important;
+    border-color: rgba(255, 255, 255, 0.5) !important;
+    border-radius: 8px;
+}
+
+.btn-hero-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
