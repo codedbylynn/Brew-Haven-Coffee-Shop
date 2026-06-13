@@ -804,3 +804,69 @@ body {
     border-color: #502416 !important;
     box-shadow: 0 4px 12px rgba(80, 36, 22, 0.15);
 }
+
+
+/* --- MENU CARD GRID ENGINE --- */
+.menu-products-section{
+    background-color: #FFF6F0;
+}
+.category-title {
+    color: #502416; 
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.8rem;
+    white-space: nowrap;
+}
+
+/* Thin horizontal separator matching design profile */
+.category-line {
+    height: 1px;
+    background-color: #e3d6cc;
+}
+
+/* Outer Card Container Box Model */
+.menu-item-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    border: none;
+    box-shadow: 0 4px 20px rgba(61, 37, 20, 0.02);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.menu-item-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(61, 37, 20, 0.06);
+}
+
+/* Square Crop Area Setup for Assets Imagery */
+.menu-item-img-wrapper {
+    width: 100%;
+    aspect-ratio: 4 / 3; 
+    overflow: hidden;
+}
+
+.menu-item-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Typography elements with your precise color tags */
+.menu-item-name {
+    color: #502416; 
+    font-size: 1.2rem;
+    line-height: 1.3;
+}
+
+.menu-item-price {
+    color: #72594A; 
+    font-size: 1.1rem;
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+.menu-item-desc {
+    color: #72594A; 
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
