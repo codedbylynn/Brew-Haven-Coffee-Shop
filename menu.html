@@ -3,13 +3,128 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Menu</title>
 
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="Bootsrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="Bootsrap/js/bootstrap.bundle.min.js" defer></script>
   
 </head>
 <body>
+
+
+
+  <!-- NAVBAR START -->
+<nav class="navbar navbar-expand-lg bg-white py-3 shadow-sm sticky-top">
+
+  <div class="container">
+
+    <!-- Logo -->
+    <a class="navbar-brand fw-bold fs-3" href="#">
+      Brew Haven
+    </a>
+
+    <!-- Mobile Menu Button -->
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navigation Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+      <ul class="navbar-nav mx-auto gap-3">
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page"href="menu.html">Menu</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link "  href="about.html">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+
+      </ul>
+
+      <a href="#" class="btn btn-dark px-4">
+        Order Now
+      </a>
+
+    </div>
+
+  </div>
+
+</nav>
+<!-- NAVBAR END -->
+
+
+
+
+
+  
+<section class="menu-hero-section py-5">
+  <div class="container text-center py-4">
+    
+    <h1 class="menu-hero-title display-4 fw-bold mb-3">Our Menu</h1>
+    <p class="menu-hero-text text-muted mx-auto mb-5" style="max-width: 650px;">
+      Discover our artisanal selection of ethically sourced beans, hand-crafted espresso beverages, and freshly baked pastries.
+    </p>
+
+    <div class="d-flex flex-wrap justify-content-center gap-2 filter-buttons-container">
+      <button class="btn btn-filter active" type="button">All</button>
+      <button class="btn btn-filter" type="button">Espresso</button>
+      <button class="btn btn-filter" type="button">Latte</button>
+      <button class="btn btn-filter" type="button">Cappuccino</button>
+      <button class="btn btn-filter" type="button">Cold Brew</button>
+      <button class="btn btn-filter" type="button">Pastries</button>
+      <button class="btn btn-filter" type="button">Desserts</button>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 </body>
 </html>

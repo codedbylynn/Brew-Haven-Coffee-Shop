@@ -760,3 +760,47 @@ body {
     line-height: 1.7;
     font-weight: 300;
 }
+
+
+
+/* MENU PAGE STYLES */
+
+.menu-hero-section {
+    background-color: #FFF6F0; 
+}
+.menu-hero-title {
+    color: #502416; 
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+.menu-hero-text {
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+/* Custom Rounded Filter Button Styling */
+.btn-filter {
+    background-color: #ffffff;
+    color: #5A4033;
+    border: 1px solid #E6DCD5;
+    border-radius: 30px; 
+    padding: 8px 24px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: all 0.25s ease;
+}
+
+/* Hover effect */
+.btn-filter:hover {
+    background-color: #F5EBE4;
+    color: #3D2514;
+    border-color: #CDBEB5;
+}
+
+/* Active selected state button */
+.btn-filter.active {
+    background-color: #502416 !important; 
+    color: #ffffff !important;
+    border-color: #502416 !important;
+    box-shadow: 0 4px 12px rgba(80, 36, 22, 0.15);
+}
