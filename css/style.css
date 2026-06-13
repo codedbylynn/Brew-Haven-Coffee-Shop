@@ -604,3 +604,52 @@ body {
     line-height: 1.6;
     letter-spacing: 0.5px;
 }
+/* --- ABOUT PASSION SECTION --- */
+.about-passion-section {
+    background-color: #FFF6F0; /* Soft warm pinkish-cream background tint matching Figma layout */
+}
+
+.passion-small-title {
+    color: #502416; /* Warm deep accent brown */
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.passion-main-title {
+    color: #502416; 
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+.passion-lead-text,
+.passion-closing-text {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #52443F !important;
+}
+
+.passion-blockquote {
+    border-left: 3px solid #D9B398; 
+}
+
+.italic-quote {
+    font-size: 1rem;
+    color: #52443F;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+/* Rounded image layout frame */
+.passion-image-container {
+    background-color: #FFF6F0; 
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(61, 37, 20, 0.04);
+}
+
+.passion-img {
+    border-radius: 12px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
