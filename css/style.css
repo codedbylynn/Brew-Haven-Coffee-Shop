@@ -102,9 +102,7 @@
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-/* ==========================================================================
-   GLOBAL STYLES & TYPOGRAPHY
-   ========================================================================== */
+/* GLOBAL STYLES & TYPOGRAPHY*/
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #FFFDFB;
@@ -112,9 +110,7 @@ body {
     overflow-x: hidden;
 }
 
-/* ==========================================================================
-   NAVBAR STYLES
-   ========================================================================== */
+/* NAVBAR STYLES */
 .navbar {
     transition: all 0.3s ease;
 }
@@ -276,7 +272,7 @@ body {
 
 /* --- MENU SECTION --- */
 .menu-section {
-    background-color: #502416; /* Your signature dark coffee brown color */
+    background-color: #502416;
 }
 
 .menu-section-title {
@@ -376,7 +372,7 @@ body {
 
 /* --- HAPPY HOUR BANNER --- */
 .happy-hour-section {
-    background-color: #5A3326; /* Deep amber-brown block tint */
+    background-color: #5A3326;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -403,7 +399,7 @@ body {
 
 /* --- REVIEWS SECTION --- */
 .reviews-section {
-    background-color: #FFF6F0; /* Soft warm pinkish-cream tint */
+    background-color: #FFF6F0; 
 }
 
 .review-small-title {
@@ -426,7 +422,7 @@ body {
 }
 
 .stars i {
-    color: #F1C2A5; /* Warm soft-peach stars color from Figma layout */
+    color: #F1C2A5; 
     margin-right: 2px;
 }
 
@@ -440,8 +436,8 @@ body {
 .reviewer-avatar {
     width: 45px;
     height: 45px;
-    background-color: #F8D3BD; /* Soft peach background */
-    color: #502416; /* Deep brand contrast font */
+    background-color: #F8D3BD; 
+    color: #502416; 
     border-radius: 50%;
     font-size: 0.95rem;
     flex-shrink: 0;
@@ -483,7 +479,7 @@ body {
 }
 
 .btn-subscribe {
-    background-color: #502416; /* Dark roast brand button */
+    background-color: #502416;
     color: #ffffff;
     border: none;
     border-radius: 6px;
@@ -712,4 +708,55 @@ body {
 .team-member-bio {
     font-size: 0.95rem;
     line-height: 1.6;
+}
+
+/*ABOUT US PAGE: VALUES SECTION  */
+.about-values-section {
+    background-color: #5A3326; 
+}
+
+.values-section-title {
+    font-size: 2.3rem;
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: 0.5px;
+}
+
+.values-title-line {
+    width: 60px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Translucent circular frame wrapper for icons */
+.value-icon-badge {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.08); 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* NEW RULE: Safeguards your image dimensions inside the badge */
+.value-icon-img {
+    width: 32px;  
+    height: auto;
+    object-fit: contain;
+}
+
+/* Hover interaction */
+.value-item-wrapper:hover .value-icon-badge {
+    background-color: rgba(255, 255, 255, 0.15);
+    transform: scale(1.05);
+}
+
+.value-item-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.4rem;
+    letter-spacing: 0.3px;
+}
+
+.value-item-text {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    font-weight: 300;
 }
