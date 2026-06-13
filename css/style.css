@@ -653,3 +653,63 @@ body {
     object-fit: cover;
     display: block;
 }
+
+
+/* --- ABOUT TEAM SECTION --- */
+.team-section-title {
+    color: #502416; /* Signature dark roast font tone */
+    font-size: 2.3rem;
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+.team-section-subtitle {
+    font-size: 1rem;
+}
+
+/* Base Card Framing */
+.team-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 4px 20px rgba(61, 37, 20, 0.03); /* Subtle soft shadow footprint */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(61, 37, 20, 0.06);
+}
+
+/* Precise Circular Photo Crop Frame */
+.team-img-frame {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #FFF6F0; /* Warm accent border ring matching your background palette */
+}
+
+.team-avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Typography elements */
+.team-member-name {
+    color: #502416;
+    font-size: 1.35rem;
+}
+
+.team-member-role {
+    color: #9C7A63; /* Elegant muted bronze/gold tone for title sub-headers */
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
+
+.team-member-bio {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
