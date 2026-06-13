@@ -483,7 +483,7 @@ body {
 }
 
 .btn-subscribe {
-    background-color: #401B10; /* Dark roast brand button */
+    background-color: #502416; /* Dark roast brand button */
     color: #ffffff;
     border: none;
     border-radius: 6px;
@@ -500,4 +500,72 @@ body {
 
 .privacy-notice {
     font-size: 0.75rem;
+}
+
+
+
+/* --- FOOTER SECTION --- */
+.footer-section {
+    background-color: #502416; /* Matching the deep dark roast tone */
+    color: #ffffff;
+}
+
+.footer-brand-title {
+    font-size: 1.6rem;
+    color: #ffffff;
+}
+
+.footer-heading {
+    font-size: 1.25rem;
+    color: #ffffff;
+}
+
+.footer-text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Navigation Links Formatting */
+.footer-links-list a {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
+}
+
+.footer-links-list a:hover {
+    color: #ffffff;
+}
+
+/* Alignment Row for Hours */
+.footer-hours-list {
+    font-size: 0.95rem;
+}
+
+/* Location Map Anchor */
+.footer-map-link {
+    color: #ffffff !important;
+    font-size: 0.95rem;
+    transition: opacity 0.2s ease;
+}
+
+.footer-map-link:hover {
+    opacity: 0.8;
+}
+
+/* Social Icon Badges */
+.social-link {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.25rem;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.social-link:hover {
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+
+.footer-socket {
+    font-size: 0.85rem;
 }
