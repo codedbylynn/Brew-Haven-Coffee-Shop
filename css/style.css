@@ -870,3 +870,148 @@ body {
     font-size: 0.9rem;
     line-height: 1.5;
 }
+
+
+
+/*  CONTACT PAGE STYLES*/
+
+.contact-hero-section {
+    background-color: #502416; /* Rich dark brown background header block */
+}
+
+.contact-hero-title {
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+.contact-hero-text {
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.contact-content-section {
+    background-color: #FFF6F0; 
+}
+
+/* Elevated Form Container Card Box Model */
+.contact-form-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 35px rgba(80, 36, 22, 0.04);
+}
+
+.contact-card-title, .contact-info-title {
+    color: #502416;
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+.contact-label {
+    font-size: 0.85rem;
+    color: #72594A;
+    font-weight: 500;
+}
+
+/* Input Fields Refinement */
+.contact-input {
+    border: 1px solid #E6DCD5;
+    border-radius: 6px;
+    padding: 10px 14px;
+    font-size: 0.95rem;
+    color: #3D2514;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-input:focus {
+    border-color: #9C7A63;
+    box-shadow: 0 0 0 3px rgba(156, 122, 99, 0.1);
+    outline: none;
+}
+
+/* Submit Action Button styling matches dark bean values */
+.btn-contact-submit {
+    background-color: #502416;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.btn-contact-submit:hover {
+    background-color: #3D1A10;
+    color: #ffffff;
+}
+
+/* Info Elements Styling Rules */
+.contact-info-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #F7EDE6;
+}
+
+.info-img-icon {
+    width: 18px;
+    height: auto;
+}
+
+.info-item-heading {
+    font-size: 1.05rem;
+    color: #502416;
+}
+
+.info-item-text {
+    font-size: 0.95rem;
+    color: #72594A;
+    line-height: 1.6;
+}
+
+.social-follow-title {
+    font-size: 0.85rem;
+    color: #502416;
+    letter-spacing: 1.5px;
+}
+
+/* Rounded Profile Social Circles */
+.contact-social-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #72594A;
+    background-color: transparent;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.contact-social-btn:hover {
+    background-color: #F7EDE6;
+    border-color: #502416;
+}
+
+.social-img-icon {
+    width: 16px;
+    height: auto;
+}
+
+/* Map Preview Interactive Presentation Frame */
+.map-preview-card {
+    height: 180px;
+    width: 100%;
+}
+
+.map-overlay-blur {
+    background-color: rgba(61, 37, 20, 0.15);
+}
+
+.btn-view-map {
+    background-color: #ffffff;
+    color: #3D2514;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.btn-view-map:hover {
+    transform: scale(1.02);
+    background-color: #F7EDE6;
+    color: #3D2514;
+}
