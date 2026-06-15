@@ -951,6 +951,7 @@ body {
 .info-img-icon {
     width: 18px;
     height: auto;
+    filter: brightness(0) opacity(0.75);
 }
 
 .info-item-heading {
