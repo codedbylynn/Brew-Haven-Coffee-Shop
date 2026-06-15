@@ -29,7 +29,7 @@
 .btn-dark{
     background-color: #6B3A2A;
     border-color: #6B3A2A;
-    border-radius: 30px;
+    border-radius: 6px;
     padding: 10px 24px;
 }
 
@@ -87,14 +87,14 @@
 
 /* Custom UI Button Styles */
 .btn-hero-primary {
-    color: #1d1009 !important; /* Dark brown text for the solid white button */
+    color: #1d1009; /* Dark brown text for the solid white button */
     font-weight: 600;
     border-radius: 8px;
 }
 
 .btn-hero-secondary {
-    color: #ffffff !important;
-    border-color: rgba(255, 255, 255, 0.5) !important;
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.5);
     border-radius: 8px;
 }
 
@@ -116,26 +116,26 @@ body {
 }
 
 .navbar-brand {
-    color: #3D2514 !important;
+    color: #3D2514 ;
 }
 
 .nav-link {
-    color: #555555 !important;
+    color: #555555 ;
     font-weight: 500;
 }
 
 .nav-link.active, .nav-link:hover {
-    color: #502416 !important;
+    color: #502416;
 }
 
 .btn-dark {
-    background-color: #502416 !important;
-    border-color: #502416 !important;
+    background-color: #502416;
+    border-color: #502416 ;
 }
 
 .btn-dark:hover {
-    background-color: #3D2514 !important;
-    border-color: #3D2514 !important;
+    background-color: #3D2514;
+    border-color: #3D2514;
 }
 
 /* HERO SECTION */
@@ -185,25 +185,25 @@ body {
 
 /* Hero Button Overrides */
 .btn-hero-primary {
-    background-color: #ffffff !important;
-    color: #1d1009 !important;
+    background-color: #ffffff;
+    color: #1d1009;
     font-weight: 600;
     border-radius: 8px;
 }
 
 .btn-hero-primary:hover {
-    background-color: #FDF5F0 !important;
+    background-color: #FDF5F0;
 }
 
 .btn-hero-secondary {
-    color: #ffffff !important;
-    border-color: rgba(255, 255, 255, 0.5) !important;
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.5);
     border-radius: 8px;
 }
 
 .btn-hero-secondary:hover {
-    background-color: rgba(255, 255, 255, 0.1) !important;
-    color: #ffffff !important;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
 }
 
 /* FEATURES SECTION ("WHY BREW HAVEN") */
@@ -266,7 +266,7 @@ body {
 .feature-card-text {
     font-size: 0.95rem;
     line-height: 1.6;
-    color: #52443F !important;
+    color: #52443F;
 }
 
 
@@ -386,7 +386,7 @@ body {
 
 .btn-banner-location {
     background-color: #ffffff;
-    color: #5A3326 !important;
+    color: #5A3326;
     font-weight: 500;
     border-radius: 6px;
     border: none;
@@ -429,7 +429,7 @@ body {
 .review-text {
     font-size: 0.95rem;
     line-height: 1.6;
-    color: #555555 !important;
+    color: #555555;
 }
 
 /* Reviewer Avatars styling */
@@ -540,7 +540,7 @@ body {
 
 /* Location Map Anchor */
 .footer-map-link {
-    color: #ffffff !important;
+    color: #ffffff;
     font-size: 0.95rem;
     transition: opacity 0.2s ease;
 }
@@ -622,7 +622,7 @@ body {
 .passion-closing-text {
     font-size: 1rem;
     line-height: 1.7;
-    color: #52443F !important;
+    color: #52443F;
 }
 
 .passion-blockquote {
@@ -799,9 +799,9 @@ body {
 
 /* Active selected state button */
 .btn-filter.active {
-    background-color: #502416 !important; 
-    color: #ffffff !important;
-    border-color: #502416 !important;
+    background-color: #502416; 
+    color: #ffffff;
+    border-color: #502416;
     box-shadow: 0 4px 12px rgba(80, 36, 22, 0.15);
 }
 
@@ -991,6 +991,11 @@ body {
 .social-img-icon {
     width: 16px;
     height: auto;
+    filter: brightness(0) opacity(0.8);
+    transition: filter 0.2s ease;
+}
+.contact-social-btn:hover .social-img-icon {
+    filter: brightness(0) opacity(1);
 }
 
 /* Map Preview Interactive Presentation Frame */
