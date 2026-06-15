@@ -876,16 +876,18 @@ body {
 /*  CONTACT PAGE STYLES*/
 
 .contact-hero-section {
-    background-color: #502416; /* Rich dark brown background header block */
+    background-color: #FFF6F0; /* Rich dark brown background header block */
 }
 
 .contact-hero-title {
     font-family: 'Playfair Display', Georgia, serif;
+    color: #502416;
 }
 
 .contact-hero-text {
     font-size: 1.05rem;
     line-height: 1.6;
+    color: #502416;
 }
 
 .contact-content-section {
