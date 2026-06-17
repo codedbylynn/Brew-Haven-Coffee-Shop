@@ -23,9 +23,9 @@ document.addEventListener("DOMContentLoaded", function () {
         scrollObserver.observe(element);
     });
   
-   
+  
     // 2. CONTACT FORM MICRO-INTERACTION
-    =
+    
     const contactForm = document.querySelector(".contact-form-card form");
     if (contactForm) {
         contactForm.addEventListener("submit", function (e) {
