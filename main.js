@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const fadeElements = document.querySelectorAll(".scroll-fade");
     
     const scrollOptions = {
-        threshold: 0.15,
-        rootMargin: "0px 0px -50px 0px"
+        threshold: 0,
+        rootMargin: "0px 0px 0px 0px"
     };
 
     const scrollObserver = new IntersectionObserver(function (entries, observer) {
@@ -22,6 +22,12 @@ document.addEventListener("DOMContentLoaded", function () {
     fadeElements.forEach(element => {
         scrollObserver.observe(element);
     });
+    fadeElements.forEach(element => {
+    const rect = element.getBoundingClientRect();
+    if (rect.top < window.innerHeight) {
+        element.classList.add("appear");
+    }
+});
   
   
     // 2. CONTACT FORM MICRO-INTERACTION
@@ -66,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 const filterValue = this.getAttribute("data-filter");
 
                 menuItems.forEach(item => {
-                    if (filterValue === "all" || item.classList.contains(filterValue)) {
+                    if (filterValue === "all" || item.getAttribute("data-category") === filterValue) {
                         item.style.display = "block";
                         // Instantly hook into our animation engine
                         setTimeout(() => item.classList.add("appear"), 10);

@@ -84,13 +84,13 @@
     </p>
 
     <div class="d-flex flex-wrap justify-content-center gap-2 filter-buttons-container">
-      <button class="btn btn-filter active" type="button">All</button>
-      <button class="btn btn-filter" type="button">Espresso</button>
-      <button class="btn btn-filter" type="button">Latte</button>
-      <button class="btn btn-filter" type="button">Cappuccino</button>
-      <button class="btn btn-filter" type="button">Cold Brew</button>
-      <button class="btn btn-filter" type="button">Pastries</button>
-      <button class="btn btn-filter" type="button">Desserts</button>
+      <button class="btn btn-filter active" type="button" data-filter="all">All</button>
+      <button class="btn btn-filter" type="button" data-filter="espresso">Espresso</button>
+      <button class="btn btn-filter" type="button" data-filter="latte">Latte</button>
+      <button class="btn btn-filter" type="button" data-filter="cappuccino">Cappuccino</button>
+      <button class="btn btn-filter" type="button" data-filter="cold-brew">Cold Brew</button>
+      <button class="btn btn-filter" type="button" data-filter="pastries">Pastries</button>
+      <button class="btn btn-filter" type="button" data-filter="desserts">Desserts</button>
     </div>
 
   </div>
@@ -107,7 +107,7 @@
 
     <div class="row g-4 scroll-fade">
       
-      <div class="col-sm-6 col-lg-3">
+      <div class="col-sm-6 col-lg-3 menu-item" data-category="espresso">
         <div class="menu-item-card h-100">
           <div class="menu-item-img-wrapper">
             <img src="Assets/Signature Espresso.png" class="menu-item-img" alt="Signature Espresso">
@@ -124,7 +124,7 @@
         </div>
       </div>
 
-      <div class="col-sm-6 col-lg-3">
+      <div class="col-sm-6 col-lg-3 menu-item" data-category="latte">
         <div class="menu-item-card h-100">
           <div class="menu-item-img-wrapper">
             <img src="Assets/Classic Latte.png" class="menu-item-img" alt="Classic Latte">
@@ -141,7 +141,7 @@
         </div>
       </div>
 
-      <div class="col-sm-6 col-lg-3">
+      <div class="col-sm-6 col-lg-3 menu-item" data-category="cappuccino">
         <div class="menu-item-card h-100">
           <div class="menu-item-img-wrapper">
             <img src="Assets/Cappuccino2.png" class="menu-item-img" alt="Cappuccino">
@@ -158,7 +158,7 @@
         </div>
       </div>
 
-      <div class="col-sm-6 col-lg-3">
+      <div class="col-sm-6 col-lg-3 menu-item" data-category="cold-brew">
         <div class="menu-item-card h-100">
           <div class="menu-item-img-wrapper">
             <img src="Assets/Cortado.png" class="menu-item-img" alt="Cortado">
@@ -192,7 +192,7 @@
 
     <div class="row g-4 mb-5">
       
-      <div class="col-sm-6 col-lg-3">
+     <div class="col-sm-6 col-lg-3 menu-item" data-category="pastries">
         <div class="menu-item-card h-100">
           <div class="menu-item-img-wrapper">
             <img src="Assets/Nitro Cold Brew.png" class="menu-item-img" alt="Nitro Cold Brew">
